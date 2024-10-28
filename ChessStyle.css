@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .GameContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(232, 191, 137);
+    width: 100%;
+    height: 600px;
+  }
+  .board{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 600px;
+    height: 600px;
+  }
+  .row{
+    display: flex;
+    flex-direction:row;
+  }
+  .evenTiles{
+    width: 75px;
+    height:75px;
+    background-color:white
+  }
+  .oddTiles{
+    width: 75px;
+    height:75px;
+    background-color:rgb(110, 87, 77)
+  }
